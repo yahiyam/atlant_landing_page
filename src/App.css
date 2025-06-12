@@ -36,3 +36,111 @@
     transform: rotate(360deg);
   }
 }
+
+/* src/App.css */
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  background-color: #f8f9fa;
+  color: #333;
+}
+
+header {
+  background-color: #004aad;
+  color: white;
+  padding: 20px 10px;
+  text-align: center;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2rem;
+}
+
+nav a {
+  color: white;
+  margin: 0 15px;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 40px auto;
+  padding: 0 20px;
+}
+
+.section {
+  margin-bottom: 50px;
+}
+
+h2 {
+  color: #004aad;
+  margin-bottom: 20px;
+  border-bottom: 3px solid #004aad;
+  display: inline-block;
+  padding-bottom: 5px;
+}
+
+.offer-slider {
+  display: flex;
+  overflow-x: auto;
+  gap: 15px;
+}
+
+.offer-slider img {
+  width: 340px;
+  height: 460px;
+  object-fit: cover;
+  border-radius: 8px;
+  box-shadow: 0 3px 8px rgba(0,0,0,0.15);
+  flex-shrink: 0;
+}
+
+.features-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  list-style: none;
+  padding: 0;
+}
+
+.features-list li {
+  background: white;
+  padding: 15px;
+  flex: 1 1 200px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.contact {
+  background-color: #004aad;
+  color: white;
+  padding: 20px 10px;
+  text-align: center;
+}
+
+.contact a {
+  color: #ffd700;
+  margin: 0 10px;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.contact a:hover {
+  text-decoration: underline;
+}
+
+.footer {
+  background-color: #222;
+  color: #aaa;
+  text-align: center;
+  padding: 15px 10px;
+  font-size: 0.9rem;
+  margin-top: 40px;
+}

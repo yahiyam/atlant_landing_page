@@ -1,0 +1,109 @@
+[debug] [2025-06-12T17:59:51.996Z] ----------------------------------------------------------------------
+[debug] [2025-06-12T17:59:51.998Z] Command:       /home/yahiya/.nvm/versions/node/v22.16.0/bin/node /home/yahiya/.nvm/versions/node/v22.16.0/bin/firebase init
+[debug] [2025-06-12T17:59:51.998Z] CLI Version:   14.7.0
+[debug] [2025-06-12T17:59:51.999Z] Platform:      linux
+[debug] [2025-06-12T17:59:51.999Z] Node Version:  v22.16.0
+[debug] [2025-06-12T17:59:51.999Z] Time:          Thu Jun 12 2025 23:29:51 GMT+0530 (India Standard Time)
+[debug] [2025-06-12T17:59:51.999Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2025-06-12T17:59:52.003Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-06-12T17:59:52.004Z] > authorizing via signed-in user (atlantdigitals@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  /home/yahiya/Flutter Workspace/@lant/landing_page/landing-page
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2025-06-12T18:00:06.502Z] Checked if tokens are valid: true, expires at: 1749753225239
+[debug] [2025-06-12T18:00:06.503Z] Checked if tokens are valid: true, expires at: 1749753225239
+[debug] [2025-06-12T18:00:06.505Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects pageSize=100
+[debug] [2025-06-12T18:00:12.019Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects 503
+[debug] [2025-06-12T18:00:12.019Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects [omitted]
+[debug] [2025-06-12T18:00:12.020Z] Request to https://firebase.googleapis.com/v1beta1/projects?pageSize=100 had HTTP Error: 503, Visibility check was unavailable. Please retry the request and contact support if the problem persists
+[debug] [2025-06-12T18:00:12.521Z] FirebaseError: Request to https://firebase.googleapis.com/v1beta1/projects?pageSize=100 had HTTP Error: 503, Visibility check was unavailable. Please retry the request and contact support if the problem persists
+    at responseToError (/home/yahiya/.nvm/versions/node/v22.16.0/lib/node_modules/firebase-tools/lib/responseToError.js:52:12)
+    at RetryOperation._fn (/home/yahiya/.nvm/versions/node/v22.16.0/lib/node_modules/firebase-tools/lib/apiv2.js:312:77)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+[error] 
+[error] Error: Failed to list Firebase projects. See firebase-debug.log for more info.
+[debug] [2025-06-12T18:05:26.620Z] ----------------------------------------------------------------------
+[debug] [2025-06-12T18:05:26.622Z] Command:       /home/yahiya/.nvm/versions/node/v22.16.0/bin/node /home/yahiya/.nvm/versions/node/v22.16.0/bin/firebase init
+[debug] [2025-06-12T18:05:26.623Z] CLI Version:   14.7.0
+[debug] [2025-06-12T18:05:26.623Z] Platform:      linux
+[debug] [2025-06-12T18:05:26.623Z] Node Version:  v22.16.0
+[debug] [2025-06-12T18:05:26.623Z] Time:          Thu Jun 12 2025 23:35:26 GMT+0530 (India Standard Time)
+[debug] [2025-06-12T18:05:26.623Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2025-06-12T18:05:26.627Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-06-12T18:05:26.628Z] > authorizing via signed-in user (atlantdigitals@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  /home/yahiya/Flutter Workspace/@lant/landing_page/landing-page
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[info] i  If you want to create a project in a Google Cloud organization or folder, please use "firebase projects:create" instead, and return to this command when you've created the project. 
+[debug] [2025-06-12T18:06:08.124Z] ----------------------------------------------------------------------
+[debug] [2025-06-12T18:06:08.126Z] Command:       /home/yahiya/.nvm/versions/node/v22.16.0/bin/node /home/yahiya/.nvm/versions/node/v22.16.0/bin/firebase init
+[debug] [2025-06-12T18:06:08.127Z] CLI Version:   14.7.0
+[debug] [2025-06-12T18:06:08.127Z] Platform:      linux
+[debug] [2025-06-12T18:06:08.127Z] Node Version:  v22.16.0
+[debug] [2025-06-12T18:06:08.128Z] Time:          Thu Jun 12 2025 23:36:08 GMT+0530 (India Standard Time)
+[debug] [2025-06-12T18:06:08.128Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2025-06-12T18:06:08.132Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-06-12T18:06:08.132Z] > authorizing via signed-in user (atlantdigitals@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  /home/yahiya/Flutter Workspace/@lant/landing_page/landing-page
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2025-06-12T18:07:36.611Z] Checked if tokens are valid: true, expires at: 1749753225239
+[debug] [2025-06-12T18:07:36.611Z] Checked if tokens are valid: true, expires at: 1749753225239
+[debug] [2025-06-12T18:07:36.612Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects pageSize=100
+[debug] [2025-06-12T18:07:42.178Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects 503
+[debug] [2025-06-12T18:07:42.179Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects [omitted]
+[debug] [2025-06-12T18:07:42.179Z] Request to https://firebase.googleapis.com/v1beta1/projects?pageSize=100 had HTTP Error: 503, Visibility check was unavailable. Please retry the request and contact support if the problem persists
+[debug] [2025-06-12T18:07:42.684Z] FirebaseError: Request to https://firebase.googleapis.com/v1beta1/projects?pageSize=100 had HTTP Error: 503, Visibility check was unavailable. Please retry the request and contact support if the problem persists
+    at responseToError (/home/yahiya/.nvm/versions/node/v22.16.0/lib/node_modules/firebase-tools/lib/responseToError.js:52:12)
+    at RetryOperation._fn (/home/yahiya/.nvm/versions/node/v22.16.0/lib/node_modules/firebase-tools/lib/apiv2.js:312:77)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+[error] 
+[error] Error: Failed to list Firebase projects. See firebase-debug.log for more info.

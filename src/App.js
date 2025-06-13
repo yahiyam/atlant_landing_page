@@ -45,10 +45,10 @@ function App() {
         </section>
 
         <section id="experience" className="section">
-          <h2>18+ Years of Experience</h2>
+          <h2>19+ Years of Experience</h2>
           <p>
             Atlant Computers has proudly served Khamis Mushayth, KSA, providing
-            trusted and quality services for over 18 years.
+            trusted and quality services for over 19 years.
           </p>
         </section>
       </main>
